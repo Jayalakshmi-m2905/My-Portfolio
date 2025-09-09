@@ -1,0 +1,291 @@
+.resume{
+    width: 100%;
+    height:100%;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 32, 32);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 20px;
+    
+    border: 1px solid rgb(67, 67, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line{
+    width: 80px;
+    height: 5px;
+    background: rgb(228,70,22);
+    background: linear-gradient(90deg, rgba(228,70,22,1) 17%, rgba(221,231,104,1) 47%, rgba(38,203,60,1) 100%);
+    border-radius: 5px;
+}
+.head1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.degree{
+    
+   
+    width: 50px;
+    position: relative;
+}
+.calender{
+    width: 20px;
+    height: 20px;
+}
+.timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.timeline-item .box{
+    border-left: 1px solid #0ef;
+}
+.box .t-content{
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.box .t-content .content{
+    transition-duration: 0.3s;
+    /* transition: transform 7.3s ease, height 12s ease;  */
+    /* transition: transform 0.3s ease, height 7s ease; */
+}
+.box .t-content .content:hover{
+    transform: scale(102%);
+    /* height: 600px; */
+}
+.box .t-content::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 0;
+    left: -10.5px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-color: rgb(212, 147, 27);
+
+}
+.timeline-content .content{
+    padding: 10px;
+    border: 2px solid rgb(19, 58, 48);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.projects .projectCard{
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.projectCard button{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(38, 111, 23);
+    background-color: rgb(49, 52, 52);
+    color: aliceblue;
+    cursor: pointer;
+}
+.Tech-skills{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.skill{
+    padding: 10px;
+    display: flex;
+    background-color: rgb(45, 47, 48);
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+    border: 1px solid rgb(100, 100, 103);
+}
+.skillimage{
+    width: 60px;
+    height: 60px;
+}
+.skillsAchieved{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 30px;
+}
+.sa-skills{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.sa-skill{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(68, 78, 79);
+    padding: 5px;
+    
+}
+.leet-level{
+    width: 200px;
+    height: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #0ef;
+    border-radius: 5px;
+
+}
+.year{
+    display: flex;
+    gap: 10px;
+}
+.leet-level p{
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.sa-skills button{
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+}
+
+
+/* Add this to your Resume.css */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: #323131;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    /* max-width: 400px; */
+    height: 90%;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+  }
+  .download a{
+    text-decoration: none;
+  }
+  .download button{
+    display: flex;
+    gap: 5px;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+  .Sc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .Sc button{
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .popup-content{
+    overflow-y: scroll;
+    
+
+  }
+  .Sc button:hover{
+    /* color: aliceblue; */
+
+    background-color: rgb(69, 160, 130);
+  }
+  .sc-icon{
+    width: 25px;
+    height: 25px;
+  }
+  .download .down{
+    width: 20px;
+    height: 20px;
+  }
+
+  .download button:hover{
+    background-color: rgb(62, 167, 97);
+  }
