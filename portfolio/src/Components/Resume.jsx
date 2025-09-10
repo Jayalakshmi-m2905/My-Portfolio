@@ -15,27 +15,29 @@ const Resume = () => {
 
   const handleMoreDetails = (project) => {
     // Set the popup content based on the project
-    if (project === 'MarketPlace') {
-      setHead(`MarketPlace Application`);
-      setLink(`https://github.com/Prathapvenkatesan551/FullStack-Project`);
+    if (project === 'Cab Booking System') {
+      setHead(`Cab Booking System`);
       setPopupContent(`
         
-        This project is a full-stack web application designed to facilitate the buying and selling of properties, specifically focused on real estate, such as houses. The primary objective is to create a seamless, user-friendly platform where sellers can list their properties for sale,
-         and potential buyers can browse and express interest in these listings. Sellers have access to their own dedicated portal, allowing them to easily manage their property details, including adding, editing, and updating property information as needed. Buyers can explore available 
-         properties and, if interested, can contact the seller directly through an integrated web form.
+      The Full Stack Cab Booking System is a web-based platform designed to make ride booking simple and efficient for users.
+       Customers can sign up, log in, and book a cab by selecting their pickup and drop-off locations, viewing estimated fares,
+        and receiving driver details instantly. The system also provides booking history, cancellation options, and 
+        secure authentication for users. On the other side, drivers can manage ride requests, view customer details, and update ride statuses.
+         An admin module is included to manage users, drivers, and bookings, ensuring smooth and reliable operations.
         `);
       setPopupContent2(`
-        The application incorporates essential features such as secure user authentication, dynamic property listings, form-based 
-        communication between buyers and sellers, and the ability for sellers to maintain control over their listings. The architecture
-         of the project involves a robust backend built using enterprise-level technologies and a responsive, intuitive frontend that ensures a smooth user experience across different devices. This solution aims to simplify 
-        the process of property transactions, providing both buyers and sellers with the tools they need in a single web portal.
+        Technically, the system is implemented using a modern full stack architecture. The frontend is developed with HTML, CSS, JavaScript,
+         and React, delivering a responsive and interactive user interface. The backend is powered by Java (Spring Boot)
+          to handle authentication, ride management, fare calculation, and API services. Data is stored in MySQL, which manages user profiles,
+           cab details, bookings, and ride transactions. Communication between frontend and backend is achieved through RESTful APIs,
+            ensuring seamless data flow. This project demonstrates strong full stack skills—covering user experience, backend logic, and
+             database management—making it an excellent choice for real-world application and portfolio presentation.
           `);
 
-          setPopupContent3(`HTML , CSS , JavaScript , React Js , Spring Boot , My Sql`);
+          setPopupContent3(`HTML , CSS , JavaScript , React Js , Java , My Sql`);
     
         } else if (project === 'PasswordManager') {
-      setHead(`Password Manager Application`);
-      setLink(`https://github.com/Prathapvenkatesan551/JAVA-PROJECT-APM`);
+      setHead(`PasswordManager`);
       setPopupContent(`
         This project is a Java Swing-based desktop application designed as a comprehensive Password Manager, focusing on enhancing users' digital security. The primary functionalities include strong password generation, password health checks, and secure password storage. Users can generate strong, random passwords tailored to their specific requirements, significantly improving their defense against unauthorized access. The password health check feature assesses the strength of existing passwords, providing feedback and recommendations for enhancing their security based on criteria such as length and complexity.
         `);
@@ -84,7 +86,7 @@ const Resume = () => {
                   </div>
                   <h3>Bachelor's Degree</h3>
                   <p>
-                    Computer Science and Engineering in Erode Sengunthar Engineering college
+                    Computer Science and Engineering in Erode Sengunthar Engineering college.
                    
 
                   </p>
@@ -132,10 +134,10 @@ const Resume = () => {
 
       <div className="projects">
         <div className="projectCard">
-          <h2>MarketPlace Application</h2>
+          <h2>Cab Booking System</h2>
           <p>Full Stack Project</p>
-          <p>[React js, JavaScript, Spring Boot, MySQL]</p>
-          <button onClick={() => handleMoreDetails('MarketPlace')}>More Details</button>
+          <p>[React js, JavaScript, Java , MySQL]</p>
+          <button onClick={() => handleMoreDetails('Cab Booking System')}>More Details</button>
         </div>
         <div className="projectCard">
           <h2>Password Manager</h2>

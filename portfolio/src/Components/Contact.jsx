@@ -23,7 +23,7 @@ const Contact = () => {
 
     if (res.success) {
      alert("Mail sent successfully");
-      window.location.href = '/Deploy-Resume/';
+      window.location.href = 'portfolio';
 
     }
   };
