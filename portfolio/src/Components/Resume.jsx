@@ -11,7 +11,7 @@ const Resume = () => {
   const [popupContent, setPopupContent] = useState('');
   const [popupContent2, setPopupContent2] = useState('');
   const [popupContent3, setPopupContent3] = useState('');
-  let project1='Implemented a Full stack Project On Ecommerce Web application ';
+  let project1='Implemented a Full stack Project On Cab Booking Web application ';
 
   const handleMoreDetails = (project) => {
     // Set the popup content based on the project
