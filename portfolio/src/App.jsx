@@ -52,7 +52,7 @@ function App() {
             <div>
             <img src="profile.jpg" alt="profile" className="DP" />
             <h3 className="myname">Jayalakshmi M</h3>
-            <h2>Software Engineer</h2>
+            <h2>  Software Engineer  </h2>
             </div>
             <div>
             <div className="location">
